@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -16,4 +16,4 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
   instance:
-    instance-id: instancia2
+    instance-id: instancia3
