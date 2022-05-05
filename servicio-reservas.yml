@@ -8,15 +8,15 @@ spring:
     hibernate:
       naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
       naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.1.106:8761/eureka
 server:
   port: 6000
-mvc:
-  pathmatch:
-    matching-strategy: ANT_PATH_MATCHER
 urls:
   hoteles: http://192.168.1.106:8000/
   vuelos: http://192.168.1.106:7000/
