@@ -18,5 +18,5 @@ eureka:
 server:
   port: 6000
 urls:
-  hoteles: http://192.168.1.106:8000/
+  hoteles: http://localhost:9000/shoteles/
   vuelos: http://localhost:9000/svuelos/
