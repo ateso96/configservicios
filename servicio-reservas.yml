@@ -19,4 +19,4 @@ server:
   port: 6000
 urls:
   hoteles: http://192.168.1.106:8000/
-  vuelos: http://192.168.1.106:7000/
+  vuelos: http://192.168.1.106:9000/svuelos/
